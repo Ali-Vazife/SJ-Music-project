@@ -93,7 +93,6 @@ body {
 .logo-fa {
   font-family: "Iranian-Sans", tahoma, aria;
   font-size: 1.4rem;
-  font-weight: ;
   letter-spacing: 1px;
 }
 .logo-en {
@@ -149,21 +148,25 @@ body {
     rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
 }
 .top-6--track p {
+  font-family: "Yekan";
   padding: 1.5rem;
-  font-size: 1.2rem;
-  font-weight: 500;
+  font-size: 1.4rem;
+  font-weight: 600;
   list-style-type: none;
+  color: rgb(75, 55, 75);
 }
 a:-webkit-any-link {
   text-decoration: none;
 }
 .top-6--track:hover {
-  background-color: #91c08d;
+  background-color: #269c8b;
+
+  /* background-color: #91c08d;
   color: #fff;
   cursor: pointer;
   box-shadow: 0px 1px 2px 0px #91c08d;
   box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
-    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px; */
 }
 
 .top-6--track img {
@@ -209,8 +212,6 @@ a:-webkit-any-link {
   color: rgb(126, 95, 184);
 } */
 
-.main-page {
-}
 .main-div {
   width: 85%;
 
@@ -244,7 +245,7 @@ a:-webkit-any-link {
   width: 6rem;
   height: 6rem;
   border-radius: 50%;
-  border: 2px solid #fff;
+  border: 2px solid rgb(190, 236, 230);
 }
 .left-famous {
   /* border: 2px solid gray; */
@@ -264,12 +265,13 @@ a:-webkit-any-link {
   color: #fff;
 }
 .famous-track .a:hover {
-  background-color: #f5cc855d;
-  color: #ccc;
-  border-radius: 10px;
+  background-color: rgb(221, 220, 220);
 }
 .famous-track .a {
   transition: all 0.3s;
+  background-color: rgb(233, 231, 231);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 .famous-ul {
   list-style-type: none;
@@ -316,81 +318,114 @@ a:-webkit-any-link {
   font-family: "Yekan";
   background-color: #41d3bd;
 }
-
+.new-list {
+}
 .new-ul {
   list-style-type: none;
-  background-color: rgb(43, 22, 43);
+  background-color: rgb(63, 45, 63);
+  /* background-color: rgb(43, 22, 43); */
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 1.5rem;
+  padding: 1rem 0;
 }
 
 .new-tracks .new-track p {
   display: inline-block;
-  color: #555;
+  color: rgb(228, 226, 226);
   font-family: "Iranian-Sans", "Yekan", serif;
   font-weight: 600;
   font-size: 1.2rem;
   transition: all 0.2s;
 }
+.new-tracks {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(150, 148, 148, 0.3) 0px 3px 7px -3px;
+}
 .new-tracks .new-track {
   display: flex;
-  justify-content: center;
+  justify-content: right;
+  align-items: center;
+  margin-right: 10%;
   padding: 0.7rem 0;
 }
 
+.center-songs {
+  border-top: 2px solid rgba(63, 121, 247, 0.952);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
 .center-song {
+  background-color: #fff;
   display: flex;
   flex-direction: column;
-  margin-top: 2rem;
+  justify-content: space-between;
+  /* margin-top: 2rem; */
+  padding: 1rem 0;
 }
-.center-songs hr {
-  border-top: 1px dotted #8c8b8b;
-}
+
 .center-song .center-song-fname {
-  font-family: sans-serif, arial;
-  font-size: 1.4rem;
-  font-weight: 600;
+  font-family: "Yekan", arial;
+  font-size: 1.8rem;
   text-align: center;
-  color: #000;
+  color: rgb(39, 38, 38);
   padding-bottom: 1.2rem;
 }
 .center-song .center-song-ename {
-  font-family: serif, sans-serif, arial;
+  font-family: sans-serif, arial;
   font-size: 1.4rem;
   letter-spacing: 0.8;
   font-weight: 400;
   text-align: center;
   color: #000;
+  padding-bottom: 3px;
 }
 
 .center-song-img {
-  max-width: 40rem;
+  max-width: 80%;
   height: auto;
-  border: 2px solid #fff;
+  border-radius: 2px;
   display: flex;
   align-self: center;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.song-dl-date {
+  margin-top: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .song-dl-btn {
-  margin: 1rem auto 0 auto;
-  font-family: sans-serif;
-  font-size: 1.4rem;
-  padding: 2px 15px;
+  font-family: "Yekan";
+  font-size: 1.5rem;
+  padding: 1px 15px;
   color: #fff;
   background-color: #0066cc;
   border: 2px solid #0066cc;
   box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
-  transition: 1000ms;
+  transition: 500ms;
   text-align: center;
   border-radius: 50px;
   cursor: pointer;
 }
 
 .song-dl-btn:hover {
-  transition: 900ms;
-  background-color: #fff;
-  color: #0066cc;
-  border: solid 2px #0066cc;
+  background-color: #0453a3;
+}
+.song-date {
+  display: flex;
+  align-items: center;
+}
+.song-date-number {
+  font-size: 0.8rem;
+  padding: 3px 5px 0 0;
+  font-weight: 600;
+}
+.song-date-icon {
+  height: 18px;
+  width: 18px;
 }
