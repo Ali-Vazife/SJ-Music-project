@@ -103,6 +103,40 @@ body {
   font-weight: 600;
 }
 
+form.search-form input[type="text"] {
+  padding: 3px;
+  font-size: 14px;
+  border: 1px solid grey;
+  float: right;
+  width: 80%;
+  background: #f1f1f1;
+  text-align: right;
+}
+
+form.search-form button {
+  float: left;
+  width: 20%;
+  padding: 2px;
+  background: #41d3bd;
+  color: white;
+  font-size: 15px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+form.search-form button:hover {
+  background: #269c8b;
+}
+
+form.search-form::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* 
 .search form input[type="text"] {
   border-radius: 5px;
   padding: 0.2rem 0;
@@ -119,7 +153,7 @@ body {
 .search-btn {
   height: 1.4rem;
   color: #41d3bd;
-}
+} */
 
 .top-6--box {
   background-color: rgb(240, 240, 240);
@@ -148,8 +182,8 @@ body {
     rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
 }
 .top-6--track p {
-  font-family: "Yekan";
-  padding: 1.5rem;
+  font-family: "Yekan", sans-serif;
+  padding: 1.2rem;
   font-size: 1.4rem;
   font-weight: 600;
   list-style-type: none;
@@ -318,8 +352,7 @@ a:-webkit-any-link {
   font-family: "Yekan";
   background-color: #41d3bd;
 }
-.new-list {
-}
+
 .new-ul {
   list-style-type: none;
   background-color: rgb(63, 45, 63);
