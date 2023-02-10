@@ -263,7 +263,7 @@ a:-webkit-any-link {
 .right {
   background-color: #fff;
   width: 22%;
-  border-radius: 2px;
+  border-radius: 7px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
     rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
@@ -273,14 +273,15 @@ a:-webkit-any-link {
 
   box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
     rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
-  border-radius: 2px;
+  border-radius: 7px;
 }
 .center {
   width: 55%;
-  background-color: #fff;
+  background-color: rgb(240, 240, 240);
   box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
     rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
   font-size: 9rem;
+  border-radius: 7px;
 }
 .left .famous-track img {
   width: 6rem;
@@ -304,6 +305,8 @@ a:-webkit-any-link {
   font-family: "Yekan";
   background-color: #41d3bd;
   color: #fff;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
 }
 .famous-track .a:hover {
   background-color: rgb(221, 220, 220);
@@ -349,7 +352,7 @@ a:-webkit-any-link {
 }
 
 .right-new {
-  border-radius: 2px;
+  border-radius: 3px;
 }
 .right-new--h {
   text-align: center;
@@ -358,6 +361,8 @@ a:-webkit-any-link {
   padding: 10px 0;
   font-family: "Yekan";
   background-color: #41d3bd;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
 }
 
 .new-ul {
@@ -392,7 +397,7 @@ a:-webkit-any-link {
 }
 
 .center-song {
-  width: 90%;
+  width: 88%;
   margin: 0 auto;
   background-color: #fff;
   display: flex;
@@ -403,6 +408,14 @@ a:-webkit-any-link {
   box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
     rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
     rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+}
+.first-center-song {
+  border-top: 3px solid rgb(63, 45, 63);
+  border-radius: 4px;
+}
+.last-center-song {
+  border-bottom: 3px solid rgb(63, 45, 63);
+  border-radius: 1%;
 }
 
 .center-song .center-song-fname {
