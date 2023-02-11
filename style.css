@@ -44,7 +44,7 @@ body {
 }
 
 .header {
-  height: 7rem;
+  height: 6.5rem;
   width: 100%;
   display: flex;
   align-items: center;
@@ -263,25 +263,19 @@ a:-webkit-any-link {
 .right {
   background-color: #fff;
   width: 22%;
-  border-radius: 7px;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
-    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  border-radius: 2%;
 }
 .left {
-  background-color: #fff;
-  width: 23%;
-
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
-    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
-  border-radius: 7px;
+  width: 24%;
 }
 .center {
-  width: 55%;
+  width: 54%;
   background-color: rgb(240, 240, 240);
   box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
     rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
   font-size: 9rem;
   border-radius: 7px;
+  margin-bottom: 0.5rem;
 }
 .left .famous-track img {
   width: 6rem;
@@ -290,12 +284,12 @@ a:-webkit-any-link {
   border: 2px solid rgb(190, 236, 230);
 }
 .left-famous {
-  /* border: 2px solid gray; */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   border-radius: 2px;
-  /* gap: 1rem; */
+  /* box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px; */
 }
 .left-famous--h {
   text-align: center;
@@ -319,9 +313,8 @@ a:-webkit-any-link {
 }
 .famous-ul {
   list-style-type: none;
-  /* background-color: #fec868; */
-  /* background-color: #f5cc85; */
 }
+
 .famous-track .a {
   display: flex;
   justify-content: center;
@@ -329,15 +322,6 @@ a:-webkit-any-link {
   gap: 1.5rem;
   position: relative;
   padding: 0.3rem 0;
-}
-.famous-track .a:after {
-  contentz: "";
-  /* background: rgb(167, 166, 166); */
-  background-color: #555;
-  position: absolute;
-  bottom: 0;
-  height: 1.5px;
-  width: 78%;
 }
 
 .famous-track .a p {
@@ -347,12 +331,26 @@ a:-webkit-any-link {
   font-weight: 600;
   font-size: 1.2rem;
 }
+
 .famous-track .a {
   padding: 0.7rem 0;
 }
 
+.sticky-header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 10.5%;
+}
+
 .right-new {
-  border-radius: 3px;
+  border-top-left-radius: 1%;
+  border-top-right-radius: 1%;
 }
 .right-new--h {
   text-align: center;
@@ -361,8 +359,8 @@ a:-webkit-any-link {
   padding: 10px 0;
   font-family: "Yekan";
   background-color: #41d3bd;
-  border-top-left-radius: 3px;
-  border-top-right-radius: 3px;
+  border-top-left-radius: 3%;
+  border-top-right-radius: 3%;
 }
 
 .new-ul {
@@ -374,6 +372,8 @@ a:-webkit-any-link {
   justify-content: center;
   gap: 1.5rem;
   padding: 1rem 0;
+  border-bottom-right-radius: 3%;
+  border-bottom-left-radius: 3%;
 }
 
 .new-tracks .new-track p {
@@ -394,6 +394,57 @@ a:-webkit-any-link {
   align-items: center;
   margin-right: 10%;
   padding: 0.7rem 0;
+}
+
+.left-genres {
+  margin-top: 10%;
+}
+.left-genres--ul {
+  list-style-type: none;
+  display: flex;
+  background-color: rgba(211, 207, 207, 0.781);
+  border-radius: 1%;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  padding: 0.5rem;
+}
+.left-genres--ul li {
+  padding: 2.5rem;
+  border-radius: 20px;
+}
+.left-genres--a {
+  color: #fff;
+}
+
+.first-genre {
+  background-color: #269c8b;
+}
+.second-genre {
+  background-color: #0066cc;
+  text-align: right;
+}
+.third-genre {
+  background-color: rgb(255, 80, 118);
+}
+.fourth-genre {
+  background-color: rgb(12, 236, 236);
+  text-align: right;
+}
+.fifth-genre {
+  background-color: #ff8c00;
+}
+.sixth-genre {
+  background-color: #9400d3;
+  text-align: right;
+}
+.seventh-genre {
+  background-color: #dfbf0a;
+}
+.music-genres-h2 {
+  font-family: "Bebas Neue", cursive;
+  font-size: 1.4rem;
+  font-weight: 400;
 }
 
 .center-song {
@@ -487,4 +538,8 @@ a:-webkit-any-link {
 .song-date-icon {
   height: 18px;
   width: 18px;
+}
+.footer {
+  background-color: #555;
+  height: 5rem;
 }
