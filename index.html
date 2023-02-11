@@ -6,14 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="style.css" />
 
 
     <title>Sirjan Music</title>
   </head>
-  <body>
-    <header class="header">
+  <body id="up">
+    <header class="header sticky-header">
       <div class="header-item">
         <div class="search">
           <form class="search-form" action="/action_page.php" style="margin:auto;max-width:150px">
@@ -213,6 +216,61 @@
               </ul>
             </div>
           </div>
+          <div class="left-genres">
+            <ul class="left-genres--ul">
+              <li class="left-genres--li first-genre">
+                <a href="#" class="left-genres--a">
+                  <h2 class="music-genres--h2">
+                    POP MUSIC
+                  </h2>
+                </a>
+              </li>
+              <li class="left-genres--li second-genre">
+                <a href="#" class="left-genres--a">
+                  <h2 class="music-genres--h2">
+                    HIPHOP MUSIC
+                  </h2>
+                </a>
+              </li>
+              <li class="left-genres--li third-genre">
+                <a href="#" class="left-genres--a">
+                  <h2 class="music-genres--h2">
+                    R & B
+                  </h2>
+                </a>
+              </li>
+              <li class="left-genres--li fourth-genre">
+                <a href="#" class="left-genres--a">
+                  <h2 class="music-genres--h2">
+                    CLASSICAL MUSIC
+                  </h2>
+                </a>
+              </li>
+              <li class="left-genres--li fifth-genre">
+                <a href="#" class="left-genres--a">
+                  <h2 class="music-genres--h2">
+                    K-POP MUSIC
+                  </h2>
+                </a>
+              </li>
+              <li class="left-genres--li sixth-genre">
+                <a href="#" class="left-genres--a">
+                  <h2 class="music-genres--h2">
+                    RE-MIX MUSIC
+                  </h2>
+
+                </a>
+              </li>
+              <li class="left-genres--li seventh-genre">
+                <a href="#" class="left-genres--a">
+                  <h2 class="music-genres--h2">
+                    FAVORITE MUSIC
+                  </h2>
+
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
         <div class="center">
               <div class="center-songs">
@@ -281,9 +339,9 @@
                 
               </div>
             </div>
-          </div>
-          <div class="right">
-        <div class="right-new">
+        </div>
+        <div class="right sticky">
+         <div class="right-new">
           <h3 class="right-new--h">جدید ترین آهنگ ها</h3>
           <div class="new-list">
             <ul class="new-ul">
@@ -370,8 +428,22 @@
               
             </ul>
           </div>
+         </div>
         </div>
       </div>
     </section>
+    <footer>
+      <div class="going-up">
+        <a href="#up">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#FFF" class="up-arrow">
+            <a href="#up"></a>
+          <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 10.5L12 3m0 0l7.5 7.5M12 3v18" />
+          </svg>
+        </a>
+      </div>
+      <div class="footer">
+        Footer
+      </div>
+    </footer>
   </body>
 </html>
