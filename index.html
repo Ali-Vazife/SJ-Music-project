@@ -433,17 +433,41 @@
       </div>
     </section>
     <footer>
-      <div class="going-up">
+      <!-- <div class="going-up">
         <a href="#up">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#FFF" class="up-arrow">
             <a href="#up"></a>
           <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 10.5L12 3m0 0l7.5 7.5M12 3v18" />
           </svg>
         </a>
-      </div>
+      </div> -->
+      <button onclick="topFunction()" id="myBtn" title="Go to top"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#fff" class="go-top-icon">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M12 19.5v-15m0 0l-6.75 6.75M12 4.5l6.75 6.75" />
+      </svg>
+      </button>
+
       <div class="footer">
         Footer
       </div>
     </footer>
+    <script>
+      let mybutton = document.getElementById("myBtn");
+      
+      window.onscroll = function() {scrollFunction()};
+      
+      function scrollFunction() {
+        if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 60) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+      
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+      </script>
+      
   </body>
 </html>
