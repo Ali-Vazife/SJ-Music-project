@@ -103,7 +103,7 @@ body {
   align-items: center;
 }
 .logo-img img {
-  width: 4.1rem;
+  max-width: 4.1rem;
   padding-top: 5px;
 }
 .logo-fa {
