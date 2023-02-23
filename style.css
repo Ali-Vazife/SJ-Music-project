@@ -415,8 +415,11 @@ a:-webkit-any-link {
   display: flex;
   justify-content: right;
   align-items: center;
-  margin-right: 10%;
+  margin-right: 1%;
   padding: 0.7rem 0;
+}
+.material-symbols-outlined {
+  color: #41d3bd;
 }
 
 .left-genres {
