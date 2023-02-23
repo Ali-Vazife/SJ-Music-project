@@ -339,11 +339,10 @@ a:-webkit-any-link {
 
 .famous-track .a {
   display: flex;
-  justify-content: center;
+  justify-content: right;
   align-items: center;
-  gap: 1.5rem;
+  gap: 1rem;
   position: relative;
-  padding: 0.3rem 0;
 }
 
 .famous-track .a p {
@@ -357,7 +356,9 @@ a:-webkit-any-link {
 .famous-track .a {
   padding: 0.7rem 0;
 }
-
+.famous-track .a img {
+  margin-right: 2%;
+}
 .sticky-header {
   position: -webkit-sticky;
   position: sticky;
@@ -368,6 +369,7 @@ a:-webkit-any-link {
   position: -webkit-sticky;
   position: sticky;
   top: 10.8%;
+  margin-bottom: 1rem;
 }
 
 .right-new {
