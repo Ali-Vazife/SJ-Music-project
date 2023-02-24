@@ -56,11 +56,11 @@ body {
 }
 .nav-item li:hover {
   background-color: #41d3bd;
-  border-radius: 20px;
+  border-radius: 2rem;
   color: #fff;
 }
 .home-navbar {
-  padding-bottom: 3px;
+  padding-bottom: 0.3rem;
   border-bottom: 2px solid #41d3bd;
 }
 .home-navbar:hover {
@@ -76,7 +76,7 @@ body {
 }
 .logo-img img {
   max-width: 4.1rem;
-  padding-top: 5px;
+  padding-top: 0.5rem;
 }
 .logo-fa {
   font-family: "Iranian-Sans", tahoma, aria;
@@ -93,8 +93,8 @@ body {
 }
 
 form.search-form input[type="text"] {
-  padding: 3px;
-  font-size: 14px;
+  padding: 0.3rem;
+  font-size: 1.4rem;
   border: 1px solid grey;
   float: right;
   width: 80%;
@@ -105,10 +105,10 @@ form.search-form input[type="text"] {
 form.search-form button {
   float: left;
   width: 20%;
-  padding: 2px;
+  padding: 0.2rem;
   background: #41d3bd;
   color: white;
-  font-size: 15px;
+  font-size: 1.5rem;
   border: 1px solid grey;
   border-left: none;
   cursor: pointer;
@@ -130,7 +130,7 @@ form.search-form::after {
   width: 85%;
   margin: 0 auto;
   padding: 1rem 0;
-  border-radius: 2px;
+  border-radius: 0.2rem;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
     rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
@@ -145,7 +145,7 @@ form.search-form::after {
   text-align: center;
   background-color: #41d3bd;
   color: #fff;
-  border-radius: 3px;
+  border-radius: 0.3rem;
   cursor: pointer;
   transition: all 0.3s;
   box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em,
@@ -171,7 +171,7 @@ a:-webkit-any-link {
 
 .top-6--track img {
   width: 100%;
-  border-radius: 2px;
+  border-radius: 0.2rem;
 }
 
 .main-div {
@@ -198,7 +198,7 @@ a:-webkit-any-link {
   box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
     rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
   font-size: 9rem;
-  border-radius: 7px;
+  border-radius: 0.7rem;
   margin-bottom: 0.5rem;
 }
 .left .famous-track img {
@@ -211,13 +211,13 @@ a:-webkit-any-link {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  border-radius: 2px;
+  border-radius: 0.2rem;
 }
 .left-famous--h {
   text-align: center;
   font-weight: 600;
   font-size: 1.8rem;
-  padding: 10px 0;
+  padding: 1rem 0;
   font-family: "Yekan";
   background-color: #41d3bd;
   color: #424242;
@@ -281,7 +281,7 @@ a:-webkit-any-link {
   text-align: center;
   font-weight: 600;
   font-size: 1.8rem;
-  padding: 10px 0;
+  padding: 1rem 0;
   font-family: "Yekan";
   background-color: #41d3bd;
   color: #424242;
@@ -354,7 +354,7 @@ a:-webkit-any-link {
 }
 .left-genres--ul li {
   padding: 2rem 2.15rem;
-  border-radius: 5px;
+  border-radius: 0.5rem;
   transition: 0.5ms;
 }
 
@@ -433,7 +433,7 @@ a:-webkit-any-link {
 }
 .first-center-song {
   border-top: 3px solid rgb(63, 45, 63);
-  border-radius: 4px;
+  border-radius: 0.4rem;
 }
 .last-center-song {
   border-bottom: 3px solid rgb(63, 45, 63);
@@ -454,13 +454,13 @@ a:-webkit-any-link {
   font-weight: 400;
   text-align: center;
   color: #000;
-  padding-bottom: 3px;
+  padding-bottom: 0.3rem;
 }
 
 .center-song-img {
   max-width: 80%;
   height: auto;
-  border-radius: 2px;
+  border-radius: 0.2rem;
   display: flex;
   align-self: center;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
@@ -478,14 +478,14 @@ a:-webkit-any-link {
 .song-dl-btn {
   font-family: "Yekan";
   font-size: 1.5rem;
-  padding: 1px 15px;
+  padding: 0.1rem 1.5rem;
   color: #fff;
   background-color: #0066cc;
   border: 2px solid #0066cc;
   box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
   transition: 500ms;
   text-align: center;
-  border-radius: 50px;
+  border-radius: 5rem;
   cursor: pointer;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
@@ -501,31 +501,31 @@ a:-webkit-any-link {
 }
 .song-date-number {
   font-size: 0.8rem;
-  padding: 3px 5px 0 0;
+  padding: 0.3rem 0.5rem 0 0;
   font-weight: 600;
 }
 .song-date-icon {
-  height: 18px;
-  width: 18px;
+  height: 1.8rem;
+  width: 1.8rem;
 }
 
 .go-top-icon {
-  width: 26px;
-  height: 26px;
+  width: 2.6rem;
+  height: 2.6rem;
 }
 
 #myBtn {
   display: none;
   position: fixed;
-  bottom: 16px;
-  right: 30px;
+  bottom: 1.6rem;
+  right: 3rem;
   z-index: 99;
   border: none;
   outline: none;
   background-color: #0066cc;
   cursor: pointer;
-  padding: 2px;
-  border-radius: 4px;
+  padding: 0.2rem;
+  border-radius: 0.4rem;
 }
 
 #myBtn:hover {
