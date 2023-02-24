@@ -30,13 +30,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* background-color: rgb(46, 45, 54);
-  background-color: linear-gradient(
-    90deg,
-    rgba(46, 45, 54, 1) 0%,
-    rgba(53, 46, 70, 1) 49%,
-    rgba(60, 59, 68, 1) 100%
-  ); */
 
   color: #fff;
   background-color: #091827;
@@ -75,7 +68,6 @@ body {
 }
 .header-brand {
   line-height: 1.6;
-  /* color: rgb(146, 211, 133); */
   color: #fff;
   text-shadow: #fff;
 
@@ -133,25 +125,6 @@ form.search-form::after {
   display: table;
 }
 
-/* 
-.search form input[type="text"] {
-  border-radius: 5px;
-  padding: 0.2rem 0;
-  text-align: center;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-  border: 3px solid #ccc;
-  outline: none;
-}
-.search form input[type="text"]:focus {
-  background-color: lightblue;
-  border: 3px solid #555;
-}
-.search-btn {
-  height: 1.4rem;
-  color: #41d3bd;
-} */
-
 .top-6--box {
   background-color: rgb(240, 240, 240);
   width: 85%;
@@ -170,7 +143,6 @@ form.search-form::after {
 }
 .top-6--track {
   text-align: center;
-  /* background-color: #a98dc0; */
   background-color: #41d3bd;
   color: #fff;
   border-radius: 3px;
@@ -185,7 +157,6 @@ form.search-form::after {
   font-size: 1.45rem;
   font-weight: 600;
   list-style-type: none;
-  /* color: rgb(75, 55, 75); */
   color: #4f0e4f;
 }
 .top-6--track p:hover {
@@ -196,60 +167,12 @@ a:-webkit-any-link {
 }
 .top-6--track:hover {
   background-color: #2fb4a0;
-
-  /* background-color: #91c08d;
-  color: #fff;
-  cursor: pointer;
-  box-shadow: 0px 1px 2px 0px #91c08d;
-  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
-    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px; */
 }
 
 .top-6--track img {
   width: 100%;
   border-radius: 2px;
-  /* box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
-    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset; */
 }
-
-/* .top-6--header {
-  display: flex;
-  flex-direction: column;
-  line-height: 1.3;
-} */
-
-/* .top-6--header {
-  width: 98%;
-  margin: 0 auto;
-  padding: 5rem 0;
-
-  background-image: linear-gradient(135deg, #faf9f900 10%, #f5cc85 80%),
-    url(img/hanny-naibaho-aWXVxy8BSzc-unsplash.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-
-  line-height: 1.8;
-  margin-bottom: 0.5rem;
-  border-radius: 5px;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
-    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
-} */
-
-/* .top-6--txt {
-  color: #555555;
-  font-family: "Yekan", sans-serif;
-  font-size: 1.8rem;
-  font-weight: 700;
-  text-align: center;
-} */
-
-/* .top-6--txt2 {
-  text-transform: uppercase;
-  text-align: center;
-  font-size: 1.3rem;
-  color: rgb(126, 95, 184);
-} */
 
 .main-div {
   width: 85%;
@@ -289,8 +212,6 @@ a:-webkit-any-link {
   flex-direction: column;
   justify-content: space-between;
   border-radius: 2px;
-  /* box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
-    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px; */
 }
 .left-famous--h {
   text-align: center;
@@ -371,7 +292,6 @@ a:-webkit-any-link {
 .new-ul {
   list-style-type: none;
   background-color: rgb(63, 45, 63);
-  /* background-color: rgb(43, 22, 43); */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -506,7 +426,6 @@ a:-webkit-any-link {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  /* margin-top: 2rem; */
   padding: 2rem 0;
   box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
     rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
@@ -544,8 +463,6 @@ a:-webkit-any-link {
   border-radius: 2px;
   display: flex;
   align-self: center;
-  /* box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
-    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px; */
   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
     rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
@@ -591,15 +508,6 @@ a:-webkit-any-link {
   height: 18px;
   width: 18px;
 }
-/* .going-up {
-  position: absolute;
-  width: 34px;
-  height: 34px;
-  right: 2%;
-  bottom: 150%;
-  background-color: #269c8b;
-  border-radius: 15%;
-} */
 
 .go-top-icon {
   width: 26px;
