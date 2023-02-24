@@ -1,0 +1,117 @@
+/**************************/
+/* BELOW 1270px (Smaller desktops) */
+/**************************/
+
+@media (max-width: 80em) {
+  html {
+    font-size: 56.25%;
+  }
+}
+
+/**************************/
+/* BELOW 1154px (Smaller desktops) */
+/**************************/
+
+@media (max-width: 72em) {
+  html {
+    font-size: 50%;
+  }
+}
+
+/**************************/
+/* BELOW 1040px (Smaller desktops) */
+/**************************/
+
+@media (max-width: 65em) {
+  html {
+    font-size: 46.13%;
+  }
+  .famous-track .a p {
+    font-size: 1.15rem;
+  }
+  .new-track a:link p {
+    font-size: 1.15rem;
+  }
+}
+
+/**************************/
+/* BELOW 975px (Smaller desktops) */
+/**************************/
+@media (max-width: 61em) {
+  html {
+    font-size: 40.625%;
+  }
+  .famous-track .a p {
+    font-size: 1.05rem;
+  }
+  .new-track a:link p {
+    font-size: 1.05rem;
+  }
+}
+
+/**************************/
+/* BELOW 808px (Smaller desktops) */
+/**************************/
+
+@media (max-width: 51em) {
+  html {
+    font-size: 36.25%;
+  }
+  .new-tracks .new-track {
+    padding: 0.4rem 0;
+  }
+  .famous-track .a {
+    padding: 0.4rem 0;
+  }
+
+  .top-6--track p {
+    font-size: 1.3rem;
+  }
+  .famous-track .a p {
+    font-size: 1rem;
+  }
+  .new-track a:link p {
+    font-size: 1rem;
+  }
+  .new-ul {
+    gap: 1.2rem;
+  }
+}
+
+/**************************/
+/* BELOW 704px (Smaller desktops) */
+/**************************/
+@media (max-width: 44em) {
+  html {
+    font-size: 31.25%;
+  }
+  .famous-track .a p {
+    font-size: 0.95rem;
+  }
+  .new-track a:link p {
+    font-size: 0.95rem;
+  }
+}
+
+/**************************/
+/* BELOW 573px (Smaller desktops) */
+/**************************/
+@media (max-width: 36em) {
+  html {
+    font-size: 25%;
+  }
+
+  .top-6--track p {
+    font-size: 1.25rem;
+  }
+
+  .new-ul {
+    gap: 1rem;
+  }
+  .famous-track .a p {
+    font-size: 0.95rem;
+  }
+  .new-track a:link p {
+    font-size: 0.95rem;
+  }
+}
