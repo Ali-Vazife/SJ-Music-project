@@ -165,4 +165,10 @@
 /* BELOW 573px (Smaller desktops) */
 /**************************/
 @media (max-width: 36em) {
+  .topnav {
+    display: unset;
+  }
+  .nav-item {
+    display: none;
+  }
 }
