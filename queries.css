@@ -165,10 +165,33 @@
 /* BELOW 573px (Smaller desktops) */
 /**************************/
 @media (max-width: 36em) {
-  .topnav {
-    display: unset;
+  .mobile-menu {
+    display: block;
   }
   .nav-item {
     display: none;
   }
+  form.search-form button {
+    padding: 0.2rem;
+  }
+
+  .nav {
+    order: 3;
+  }
+  .header-brand {
+    order: 2;
+  }
+  .search {
+    order: 1;
+  }
+  .logo-fa {
+    text-align: center;
+  }
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  /* .sidebar {
+    padding-top: 15px;
+  } */
 }

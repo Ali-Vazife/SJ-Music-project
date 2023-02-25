@@ -40,23 +40,23 @@
             <li><a href="#">آهنگ ریمیکس</a></li>
             <li><a href="#">آهنگ جدید</a></li>
             <li><a href="#" class="home-navbar">صفحه اصلی</a></li>
-          </ul>
+          </ul> 
+          <div class="mobile-menu">
+            <div id="mySidebar" class="sidebar">
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+              <a href="#" class="mobile-item first-mobile-item">آهنگ جدید</a>
+              <a href="#" class="mobile-item">آهنگ ریمیکس</a>
+              <a href="#" class="mobile-item">گلچین خوانندگان</a>
+              <a href="#" class="mobile-item">تماس با ما</a>
+              <a href="#" class="mobile-item">صفحه اصلی</a>
 
-          <div class="topnav">
-            <a href="#home" class="active">Menu</a>
-            <div id="myLinks">
-              <a href="#">تماس با ما</a>
-              <a href="#">گلچین خوانندگان</a>
-              <a href="#">آهنگ ریمیکس</a>
-              <a href="#">آهنگ جدید</a>
-              <a href="#" class="home-navbar">صفحه اصلی</a>
             </div>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-              <i class="fa fa-bars"></i>
-            </a>
-          </div>
-          
-
+            
+            <div id="main">
+              <button class="openbtn" onclick="openNav()">&#9776</button>
+            </div>
+            
+          </div>         
         </div>
         <div class="header-brand">
           <div class="logo-txt">
@@ -508,14 +508,18 @@
 
 
       // 
-      function myFunction() {
-  var x = document.getElementById("myLinks");
-  if (x.style.display === "block") {
-    x.style.display = "none";
-  } else {
-    x.style.display = "block";
-  }
-}
+
+      /* Set the width of the sidebar to 250px and the left margin of the page content to 250px */
+    function openNav() {
+      document.getElementById("mySidebar").style.width = "100px";
+      document.getElementById("main").style.marginRight = "90px";
+    }
+
+    /* Set the width of the sidebar to 0 and the left margin of the page content to 0 */
+    function closeNav() {
+      document.getElementById("mySidebar").style.width = "0";
+      document.getElementById("main").style.marginRight = "0";
+    }
 
       </script>
       
