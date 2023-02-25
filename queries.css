@@ -38,15 +38,22 @@
 /* BELOW 975px (Smaller desktops) */
 /**************************/
 @media (max-width: 61em) {
-  html {
-    font-size: 40.625%;
+  .top-6--box {
+    width: 90%;
   }
-  .famous-track .a p {
+  .main-div {
+    width: 90%;
+  }
+
+  html {
+    font-size: 42.5%;
+  }
+  /* .famous-track .a p {
     font-size: 1.05rem;
   }
   .new-track a:link p {
     font-size: 1.05rem;
-  }
+  } */
 }
 
 /**************************/
@@ -54,8 +61,17 @@
 /**************************/
 
 @media (max-width: 51em) {
-  html {
-    font-size: 36.25%;
+  .header-item {
+    width: 90%;
+  }
+  .top-6--box {
+    width: 96%;
+  }
+  .main-div {
+    width: 96%;
+  }
+  /* html {
+    font-size: 38.25%;
   }
   .new-tracks .new-track {
     padding: 0.4rem 0;
@@ -75,43 +91,78 @@
   }
   .new-ul {
     gap: 1.2rem;
-  }
+  } */
 }
 
 /**************************/
-/* BELOW 704px (Smaller desktops) */
+/* BELOW 752px (Smaller desktops) */
 /**************************/
-@media (max-width: 44em) {
+@media (max-width: 47em) {
   html {
     font-size: 31.25%;
   }
+  .header-item {
+    width: 96%;
+  }
+  .top-6--box {
+    width: 99%;
+  }
+  .main-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .center {
+    order: 1;
+    width: 95%;
+  }
+  .right {
+    order: 2;
+
+    width: 85%;
+  }
+  .sticky {
+    display: flex;
+    flex-direction: column;
+    position: unset;
+  }
+  .left {
+    order: 3;
+    width: 85%;
+    /* display: flex; */
+    /* align-items: center; */
+  }
+  .left-genres {
+    margin-top: 1.5rem;
+  }
+
+  .new-tracks .new-track {
+    justify-content: right;
+  }
+
   .famous-track .a p {
+    font-size: 1.2rem;
+  }
+  .new-track a:link p {
+    font-size: 1.2rem;
+  }
+  .top-6--track p {
+    font-size: 1.2rem;
+  }
+  .footer {
+    margin-top: 1.5rem;
+  }
+
+  /* .famous-track .a p {
     font-size: 0.95rem;
   }
   .new-track a:link p {
     font-size: 0.95rem;
-  }
+  } */
 }
 
 /**************************/
 /* BELOW 573px (Smaller desktops) */
 /**************************/
 @media (max-width: 36em) {
-  html {
-    font-size: 25%;
-  }
-
-  .top-6--track p {
-    font-size: 1.25rem;
-  }
-
-  .new-ul {
-    gap: 1rem;
-  }
-  .famous-track .a p {
-    font-size: 0.95rem;
-  }
-  .new-track a:link p {
-    font-size: 0.95rem;
-  }
 }
